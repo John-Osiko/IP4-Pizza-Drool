@@ -149,6 +149,23 @@ th {
     font-size: 30px;
 }
 
+footer {
+    align-items: center;
+    padding-top: 30px;
+    color: orange;
+    background-color: black;
+}
+
+footer #imagen {
+    padding-left: 30%;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 10px;
+    line-height: 1px;
+}
+
 @media (max-width: 350px) {
     html,
     body {
