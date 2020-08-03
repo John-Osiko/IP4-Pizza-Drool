@@ -149,6 +149,30 @@ th {
     font-size: 30px;
 }
 
+button[type=submit] {
+    border-radius: 33px;
+    text-decoration-color: transparent !important;
+}
+
+.contact-desc {
+    height: inherit;
+    background-color: orange;
+}
+
+.contacts .contact-desc .click-me {
+    color: orange;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: black;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+
 footer {
     align-items: center;
     padding-top: 30px;
