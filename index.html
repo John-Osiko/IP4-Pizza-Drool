@@ -75,15 +75,15 @@
                     <h3 class="collection-section__title">CLASSIC PIZZAS</h3>
                 </div>
                 <div class="collection-section__bottom">
-                    <figure class="col-md-4 container-fluid">
+                    <figure class="row-col-md-4 container-fluid">
                         <img src="./images/classics/Chicken Tikka - Medium900.jpg" alt="" class="wiggle">
                         <figcaption class="text-black-50">Regular<br>Ksh. 900</figcaption>
                     </figure>
-                    <figure class="col-md-4 container-fluid">
+                    <figure class="row-col-md-4 container-fluid">
                         <img src="./images/classics/Chicken Tikka - Large1140.jpeg" alt="" class="wiggle">
                         <figcaption class="text-black-50">Large<br>Ksh. 1140</figcaption>
                     </figure>
-                    <figure class="col-md-4 container-fluid">
+                    <figure class="row-col-md-4 container-fluid">
                         <img src="./images/classics/Pepperoni - Mega1380.png" alt="" class="wiggle">
                         <figcaption class="text-black-50">Mega<br>Ksh. 1380</figcaption>
                     </figure>
@@ -159,12 +159,20 @@
                             <option value="large">Large -- sh. 1200</option>
                             <option value="medium">Medium -- sh. 850</option>
                             <option value="small">Small -- sh. 600</option>
-                        </select><label for="crust">Choose your favorite Crust!</label>
+                        </select>
+                        <label for="crust">Choose your favorite Crust!</label>
                         <select class="browser-default custom-select custom-select-md mb-3" id="crust">
                             <option selected value="0">Select your preferred crust!</option>
                             <option value="Crispy">Crispy -- sh. 200</option>
                             <option value="Stuffed">Stuffed -- sh. 150</option>
                             <option value="Gluten-free">Gluten-free-- sh. 180</option>
+                        </select>
+                        <label for="crust">Choose your favorite Drink!</label>
+                        <select class="browser-default custom-select custom-select-md mb-3" id="soda">
+                            <option selected value="0">Select your preferred drink!</option>
+                            <option value="Crispy">Water -- sh. 120</option>
+                            <option value="Stuffed">Soda -- sh. 140</option>
+                            <option value="Gluten-free">Juice -- sh. 180</option>
                         </select>
                         <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
                         <div class="custom-control custom-checkbox custom-control-inline">
@@ -202,6 +210,7 @@
                                         <th scope="col">Size</th>
                                         <th scope="col">Crust</th>
                                         <th scope="col">Topping</th>
+                                        <th scope="col">Drink</th>
                                         <th scope="col">Total</th>
                                     </tr>
                                 </thead>
