@@ -81,6 +81,7 @@ figure img {
 
 .order h2 {
     text-align: center;
+    font-weight: 700;
 }
 
 .order {
@@ -116,12 +117,27 @@ figure img {
     display: none;
     padding-left: 10%;
     padding-right: 10%;
+    font-weight: 700;
 }
 
 td,
 th {
     font-size: 20px;
     color: white;
+}
+
+#regards {
+    text-align: center;
+    color: orange;
+    font-weight: 700;
+}
+
+#information {
+    padding-top: 5%;
+    font-size: 18px;
+    padding-right: 8%;
+    padding-left: 5%;
+    font-weight: 700;
 }
 
 .choise h2 {
