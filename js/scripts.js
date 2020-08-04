@@ -91,3 +91,12 @@ $("button.proceed").click(function(event) {
             }
             total = price + crust_price + topping_value + soda_price;
             console.log(total);
+
+            let checkoutTotal = 0;
+            checkoutTotal = checkoutTotal + total;
+            $("#pizzaname").html($("#flavour option:selected").val());
+            $("#pizzasize").html($("#size option:selected").val());
+            $("#pizzacrust").html($("#crust option:selected").val());
+            $("#pizzasoda").html($("#soda option:selected").val());
+            $("#pizzatopping").html(mytopping.join(", "));
+            $("#totals").html(total);
