@@ -1,4 +1,4 @@
-# PIZZA DROOL
+# <img src="/images/logo/Pizza Drool_free-file (1).png" alt="">
 
 ## Author
 ### John Osiko, 01 August 2020
@@ -6,7 +6,7 @@
 
 ## Description
 This is my week four project meant to test the cummulative skills I have learnt in HTML, CSS, Bootstrap, JavaScript and JQuery.
-<img src="/images/logo/Pizza Drool_free-file (1).png" alt="">
+
 
 ## Demo
 Here is a brief preview of what is entailed in the site.
