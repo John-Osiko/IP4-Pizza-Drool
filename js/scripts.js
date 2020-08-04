@@ -76,3 +76,5 @@ $("button.proceed").click(function(event) {
                 default:
                     console.log("error");
             }
+            let topping_value = mytopping.length * 50;
+            console.log("toppings value" + topping_value);
