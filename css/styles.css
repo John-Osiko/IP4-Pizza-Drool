@@ -71,6 +71,14 @@ figure img {
     width: 260px;
 }
 
+.slumber-1,
+.slumber-2,
+.slumber-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .advert .row .col-md-6 img {
     margin-top: 10px;
     margin-left: 80px;
@@ -103,7 +111,7 @@ figure img {
     padding-left: 1%;
 }
 
-.choise {
+.choice {
     display: none;
     padding-left: 2%;
     padding-right: 2%;
@@ -140,7 +148,7 @@ th {
     font-weight: 700;
 }
 
-.choise h2 {
+.choice h2 {
     text-align: left;
 }
 
@@ -208,6 +216,19 @@ footer p {
     .advert p {
         margin-top: 45px;
     }
+    .slumber-1,
+    .slumber-2,
+    .slumber-3 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+        width: 90vw;
+    }
+    figure img {
+        height: 100px;
+        width: 100px;
+    }
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
@@ -223,6 +244,19 @@ footer p {
         margin-right: 20px;
         margin-left: 12px;
     }
+    .slumber-1,
+    .slumber-2,
+    .slumber-3 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+        width: 90vw;
+    }
+    figure img {
+        height: 200px;
+        width: 200px;
+    }
 }
 
 @media (max-width: 975px) {
@@ -232,5 +266,18 @@ footer p {
     .landing video {
         height: 100vh;
         width: 90vw;
+    }
+    .slumber-1,
+    .slumber-2,
+    .slumber-3 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+        width: 90vw;
+    }
+    figure img {
+        height: 230px;
+        width: 230px;
     }
 }
