@@ -78,3 +78,16 @@ $("button.proceed").click(function(event) {
             }
             let topping_value = mytopping.length * 50;
             console.log("toppings value" + topping_value);
+            if ((mysize == "0") && (mycrust == "0")) {
+                console.log("nothing selected");
+                $("button.proceed").show();
+                $("#information").show();
+                $("div.choice").hide();
+                alert("Please select pizza size and crust");
+            } else {
+                $("button.proceed").hide();
+                $("#information").hide();
+                $("div.choice").slideDown(1500);
+            }
+            total = price + crust_price + topping_value + soda_price;
+            console.log(total);
