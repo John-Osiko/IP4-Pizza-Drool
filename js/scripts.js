@@ -197,7 +197,7 @@ $("button#checkout").click(function() {
 // home delivery button
 $("button.deliver").click(function() {
     $(".pizzatable").hide();
-    $(".choise h2").hide();
+    $(".choice h2").hide();
     $(".delivery").slideDown(1500);
     $("#addedprice").hide();
     $("button.deliver").hide();
