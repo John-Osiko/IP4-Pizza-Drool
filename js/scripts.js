@@ -163,7 +163,7 @@ $("button.addPizza").click(function() {
             break;
         case "juice":
             soda_price = 180;
-            console.log(price);
+            console.log(soda_price);
         default:
             console.log("error");
     }
@@ -178,7 +178,7 @@ $("button.addPizza").click(function() {
     // constructor function
     var newOrder = new pizza(myflavour, mysize, mycrust, mysoda, mytopping, total);
 
-    $("#ordersmade").append('<tr><td id="pizzaname">' + newOrder.flavour + '</td><td id="pizzasize">' + newOrder.size + '</td><td id="pizzacrust">' + newOrder.crust + '</td><td id="pizzatopping">' + '</td><td id="pizzasoda">' + newOrder.soda + newOrder.topping + '</td><td id="totals">' + newOrder.total + '</td></tr>');
+    $("#ordersmade").append('<tr><td id="pizzaname">' + newOrder.flavour + '</td><td id="pizzasize">' + newOrder.size + '</td><td id="pizzacrust">' + newOrder.crust + '</td><td id="pizzasoda">' + newOrder.soda + '</td><td id="pizzatopping">' + newOrder.topping + '</td><td id="totals">' + newOrder.total + '</td></tr>');
     console.log(newOrder);
 
 
@@ -234,3 +234,15 @@ $("button#final-order").click(function(event) {
 event.preventDefault();
 });
 });
+
+
+
+//subcribe button
+let size, email;
+size = document.getElementById('#size').value;
+email = document.getElementById('#email').value;
+
+function subscribe() {
+    alert("Hello " + email + " " + "Thank for reaching out");
+    console.log(email);
+}
