@@ -8,7 +8,9 @@ function pizza(flavour, size, crust, topping, soda, total) {
     this.topping = topping;
     this.soda = soda;
     this.total = total;
-} //Get inputs
+}
+
+//Get inputs
 $("button.proceed").click(function(event) {
 let myflavour = $("#flavour option:selected").val();
 let mysize = $("#size option:selected").val();
@@ -99,7 +101,10 @@ $("#pizzasize").html($("#size option:selected").val());
 $("#pizzacrust").html($("#crust option:selected").val());
 $("#pizzasoda").html($("#soda option:selected").val());
 $("#pizzatopping").html(mytopping.join(", "));
-$("#totals").html(total); // Add pizza button
+$("#totals").html(total);
+
+
+// Add pizza button
 $("button.addPizza").click(function() {
     let myflavour = $("#flavour option:selected").val();
     let mysize = $("#size option:selected").val();
@@ -177,7 +182,9 @@ $("button.addPizza").click(function() {
     console.log(newOrder);
 
 
-}); // Checkout button
+});
+
+// Checkout button
 $("button#checkout").click(function() {
     $("button#checkout").hide();
     $("button.addPizza").hide();
@@ -198,7 +205,9 @@ $("button.deliver").click(function() {
     let deliveryamount = checkoutTotal + 150;
     console.log("You will pay sh. " + deliveryamount + " on delivery");
     $("#totalbill").append("Your bill plus delivery fee is: " + deliveryamount);
-}); // when one clicks place order button
+});
+
+// when one clicks place order button
 $("button#final-order").click(function(event) {
     event.preventDefault();
 
